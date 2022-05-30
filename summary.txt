@@ -1,0 +1,6 @@
+TYPES OF TESTING
+- Unit Testing
+- Integration Testing
+- System Testing
+- User Acceptance Testing
+
