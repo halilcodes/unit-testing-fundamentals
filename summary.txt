@@ -39,12 +39,13 @@ deleting "test_" in the brginning of function ignores test case
 setup & tear down - text fixture:
 - test_calculator_v3_04.py shows
 - setUp() and tearDown() methods?
-    - supposed to b handy but I don't get why
+    - check test_car_v2.py VS test_car_c3.py to see what it does! 
     - used instead of if..else conditionals with unittest
 
 developing test suite:
 - test_calculator_v3_05.py shows
 - not working on my machine... TODO: figure out why
+
 
 ! CHAPTER -3
 
