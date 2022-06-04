@@ -1,6 +1,26 @@
+! CHAPTER -1
+
 TYPES OF TESTING
 - Unit Testing
 - Integration Testing
 - System Testing
 - User Acceptance Testing
 
+* Unit Testing
+Frameworks;
+- unittest
+    - in python standard library
+    - we learn this one in this course
+- pytest
+    - additional package
+- nose
+
+Terminology; 
+- Test case: single test case
+- test suite: multiple test cases combines
+- test runner: component to run test suite
+- unit under test: code that is being tested
+- test fixture: setup & tear down-- env setups etc.
+
+** "python -m unittest test_calculator.py -v" is the command to run test (-v is for detailed view)
+     you cannot run unittest purposed .py files in order to unit test
