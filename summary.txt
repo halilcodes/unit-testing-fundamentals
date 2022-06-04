@@ -24,3 +24,30 @@ Terminology;
 
 ** "python -m unittest test_calculator.py -v" is the command to run test (-v is for detailed view)
      you cannot run unittest purposed .py files in order to unit test
+
+** "python -m unittest test_calculator.TestsCalculator2 -v" for specific class
+** "python -m unittest test_calculator.TestsCalculator2.test_add_functionality2 -v" for specific method
+
+PyCharm has a better user interface for unittest 
+** TODO: read unittest documentation (https://docs.python.org/3/library/unittest.html)
+    - check assertNotEqual(a, b) etc.
+
+! CHAPTER -2
+@unittest.skip(msg) decorator skips given test and reports as skipped during testing
+deleting "test_" in the brginning of function ignores test case
+
+setup & tear down - text fixture:
+- test_calculator_v3_04.py shows
+- setUp() and tearDown() methods?
+    - supposed to b handy but I don't get why
+    - used instead of if..else conditionals with unittest
+
+developing test suite:
+- test_calculator_v3_05.py shows
+- not working on my machine... TODO: figure out why
+
+! CHAPTER -3
+
+test discovery:
+"python -m unittest discover unit_testing_01 " 
+TODO: documentation "discover"

@@ -1,5 +1,5 @@
 import unittest
-import calculator
+import unit_testing_01.calculator as calculator
 
 
 class TestsCalculator(unittest.TestCase):
